@@ -1,0 +1,118 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#navbar{
+    display: flex;
+    list-style: none;
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+#header{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.407),rgba(0, 0, 0, 0.385)),url(../ASSET/image/death-valley-4275549.jpg);
+    background-size: 100%;
+    position: absolute;
+    top: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 10px 10px black;
+}
+.sublist{
+    padding-left: 40px;
+    font-size: 24px;
+    transition: transform 0.2s;
+    height: 40px;
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#right{
+    position: absolute;
+    left: 1100px;
+}
+.sublist:hover{
+    transform: scale(1.2);
+}
+#containerplace{
+    position: absolute;
+    right:30px;
+    bottom: 30px;
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.places{
+    width: 20vw;
+    height: 30vh;
+    background-color: tomato;
+    background-size: 100% 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    cursor: pointer;
+}
+.places:hover{
+    background-size: 110% 32vh;
+    transform: scale(1.2);
+    color: white;
+    font-size: 24px;
+    text-shadow: 2px 2px 5px black;
+}
+#place1{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.432),rgba(0, 0, 0, 0.382)),url(../ASSET/image/indiaimage.jpg);
+
+}
+#place2{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.432),rgba(0, 0, 0, 0.382)),url(../ASSET/image/switzerland.jpg);
+    
+}
+#place3{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.432),rgba(0, 0, 0, 0.382)),url(../ASSET/image/italy.jpg);
+    
+}
+#place4{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.432),rgba(0, 0, 0, 0.382)),url(../ASSET/image/dubai.jpg);
+    
+}
+#heading{
+    width: 45vw;
+    height: 80vh;
+    position: absolute;
+    left: 0px;
+    bottom: 40px;
+}
+#textheading{
+    font-size: 11vw;
+    padding-left: 30px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'raleway',sans-serif;
+    letter-spacing: 10px;
+}
+#navbar .sublist::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background-color: #009688;
+    position: absolute;
+    left: 38px;
+    bottom: 5px;
+    transition: 0.5s;
+ }
+ #navbar .sublist:hover:after{
+     width: 60%;
+ }

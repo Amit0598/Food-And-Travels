@@ -1,0 +1,360 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+#body_of_page{
+    width: 100%;
+    height: 496vh;
+    background-image: linear-gradient(rgba(58, 48, 48, 0.359),rgba(0, 0, 0, 0.31));
+    position: absolute;
+    z-index: -1;
+}
+#container_1{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 110vh;
+}
+#anglecut1{
+    z-index: 3;
+    width: 99.8%;
+    height: 90vh;
+    background-color:linear-gradient(rgba(210, 201, 201, 0.359),rgba(205, 196, 196, 0.31));
+    clip-path: polygon(74% 0,100% 0%,100% 100%,0% 100%);
+
+}
+#video{
+    width: 100%;
+    height: 65vh;
+    background-color: transparent;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    overflow: hidden;
+}
+#vid{
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    border-top: 20px solid rgb(164, 159, 159);
+    transition: transform 0.5s;
+    overflow: hidden;
+}
+#vid:hover, #loc:hover{
+    transform: scale(1.2);
+}
+
+#loc{
+    width: 70%;
+    height: 35vh;
+    position: absolute;
+    right: 0px;
+    transition: transform 0.5s;
+    border-bottom: 10px solid black;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+
+}
+#biriyani{
+    font-size: 50px;
+    position: absolute;
+    left: 150px;
+    letter-spacing: 5px;
+    
+}
+#pp{
+    font-size: 25px;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    
+}
+#png{
+    position: absolute;
+    left: 100px;
+    top: 175px;
+    width: 250px;
+    height: 200px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+#container_2{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 207vh;
+}
+#anglecut2{
+    z-index: 3;
+    width: 99.8%;
+    height: 90vh;
+    background-color:linear-gradient(rgba(58, 48, 48, 0.359),rgba(0, 0, 0, 0.31));
+    clip-path: polygon(0 0, 25% 0, 100% 100%, 0% 100%);
+
+}
+#video2{
+    width: 100%;
+    height: 65vh;
+    background-color: transparent;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    overflow: hidden;
+}
+#vid2{
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    border-top: 20px solid rgb(164, 159, 159);
+    transition: transform 0.5s;
+    overflow: hidden;
+}
+#vid2:hover, #loc2:hover{
+    transform: scale(1.2);
+}
+
+#loc2{
+    width: 70%;
+    height: 35vh;
+    position: absolute;
+    left: 0px;
+    transition: transform 0.5s;
+    border-bottom: 10px solid black;
+}
+#iframe2{
+    width: 100%;
+    height: 100%;
+
+}
+#pizza{
+    font-size: 50px;
+    position: absolute;
+    right: 250px;
+    letter-spacing: 5px;
+}
+#pp2{
+    font-size: 25px;
+    position: absolute;
+    text-align: right;
+    top: 70px;
+    left: 47%;
+    
+}
+#png2{
+    position: absolute;
+    right: 100px;
+    top: 170px;
+    width: 270px;
+    height: 220px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+#container_3{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 304vh;
+}
+#anglecut3{
+    z-index: 3;
+    width: 99.8%;
+    height: 90vh;
+    background-color:linear-gradient(rgba(58, 48, 48, 0.359),rgba(0, 0, 0, 0.31));
+    clip-path: polygon(74% 0,100% 0%,100% 100%,0% 100%);
+
+}
+#video3{
+    width: 100%;
+    height: 65vh;
+    background-color: transparent;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    overflow: hidden;
+}
+#vid3{
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    border-top: 20px solid rgb(164, 159, 159);
+    transition: transform 0.5s;
+    overflow: hidden;
+}
+#vid3:hover, #loc3:hover{
+    transform: scale(1.2);
+}
+
+#loc3{
+    width: 70%;
+    height: 35vh;
+    position: absolute;
+    right: 0px;
+    transition: transform 0.5s;
+    border-bottom: 10px solid black;
+}
+#iframe3{
+    width: 100%;
+    height: 100%;
+
+}
+#Minestrone{
+    font-size: 50px;
+    position: absolute;
+    left: 150px;
+    letter-spacing: 5px;
+}
+#pp3{
+    font-size: 25px;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    
+}
+#png3{
+    position: absolute;
+    left: 100px;
+    top: 175px;
+    width: 250px;
+    height: 200px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+#container_4{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 403vh;
+}
+#anglecut4{
+    z-index: 3;
+    width: 99.8%;
+    height: 90vh;
+    background-color:linear-gradient(rgba(58, 48, 48, 0.359),rgba(0, 0, 0, 0.31));
+    clip-path: polygon(0 0, 25% 0, 100% 100%, 0% 100%);
+
+}
+#video4{
+    width: 100%;
+    height: 65vh;
+    background-color: transparent;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    overflow: hidden;
+}
+#vid4{
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    border-top: 20px solid rgb(164, 159, 159);
+    transition: transform 0.5s;
+    overflow: hidden;
+}
+#vid4:hover, #loc4:hover{
+    transform: scale(1.2);
+}
+
+#loc4{
+    width: 70%;
+    height: 35vh;
+    position: absolute;
+    left: 0px;
+    transition: transform 0.5s;
+    border-bottom: 10px solid black;
+}
+#iframe4{
+    width: 100%;
+    height: 100%;
+
+}
+#ChickenTenders{
+    font-size: 50px;
+    position: absolute;
+    right: 150px;
+    letter-spacing: 5px;
+}
+#pp4{
+    font-size: 25px;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    
+}
+#png4{
+    position: absolute;
+    right: 100px;
+    top: 150px;
+    width: 270px;
+    height: 220px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+#footer{
+
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    top: 496vh;
+}
+i{
+    font-size: 30px;
+    padding-top: 20px;
+    letter-spacing: 20px;
+}
+#social{
+    float: right;
+}
+#cpr{
+    padding-left: 20px;
+}
+#cprtext{
+    padding-left: 0px;
+    font-size: 24px;
+    position: absolute;
+    left: 70px;
+    top: 20px;
+}
+.sociallink{
+    color: black;
+    text-shadow: 2px 2px 5px black;
+}
+.sociallink:hover{
+    color: lime;
+}
+#up{
+    width: 60px;
+    height: 60px;
+    background-color: greenyellow;
+    border-radius: 100px;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    box-shadow: 0px 0px 5px black;
+}
+#arrow{
+    position: fixed;
+    bottom: 60px;
+    right: 24px;
+    font-size: 40px;
+    color: black;
+    text-shadow: 2px 2px 5px black;
+}
+#png:hover{
+    transform: scale(1.2);
+}
+#png2:hover{
+    transform: scale(1.2);
+}
+#png3:hover{
+    transform: scale(1.2);
+}
+#png4:hover{
+    transform: scale(1.2);
+}
